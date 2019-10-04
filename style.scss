@@ -1,0 +1,58 @@
+body {
+    background: #1e1e1e;
+}
+
+.results {
+    .result {
+        padding-bottom: 0.1rem;
+        &.selected {
+            background: none;
+        }
+
+        button {
+            .name {
+                font-weight: 900;
+            }
+            border: 0;
+            padding: 0.2rem 0.5rem;
+            font-size: 1rem;
+            box-shadow: none;
+            background: none;
+            color: #fff;
+            margin: 0 1px;
+            opacity: 0.8;
+            &.selected {
+                opacity: 1;
+                color:#96d3f4;
+            }
+        }
+        
+        .row {
+            color: #858585;
+            padding: 0.2rem;
+        }
+    }
+}
+
+.search-field {
+    width: 100%;
+    display: flex;
+    .mode {
+        font-size:1.5rem;
+        padding:0.5rem;
+        flex: 1;
+        font-weight: 900;
+    }
+    input {
+        flex:999;
+        font-size:1.5rem;
+        padding:0.5rem;
+        color:#fff;
+        background: none;
+        &, &:active, &:hover, &:focus{
+            border:none;
+            box-shadow: none;
+            outline: none;
+        }
+    }
+}
