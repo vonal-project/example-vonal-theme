@@ -1,5 +1,6 @@
 # Example Vonal Theme
 An example theme for Vonal launcher.
+![Screenshot](./screenshot.png)
 
 ## Explanation
 Themes are special plugins that overwrites the default styles.  
